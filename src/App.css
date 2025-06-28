@@ -9,7 +9,7 @@
 body {
   min-height: 100vh;
   padding: 2rem 9rem;
-  background-image: url("../../../../public/BG.png");
+  background-image: url("./img/public/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

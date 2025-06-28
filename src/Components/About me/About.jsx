@@ -1,4 +1,4 @@
-import dev from "../../../public/portrait.png";
+import dev from "../../img/public/Portrait.png";
 import styles from "./about.module.css";
 
 export default function About() {
