@@ -21,9 +21,21 @@ export default function Skills() {
           <p>Efficient management of relational databases.</p>
         </div>
         <div className={styles.skill}>
+          <i class="devicon-vitejs-plain colored"></i>
+          <h3>Vitejs</h3>
+          <p>Next-generation front-end tooling.</p>
+        </div>
+        <div className={styles.skill}>
           <i className={`fa-brands fa-react ${styles.react}`}></i>
           <h3>React</h3>
           <p>Building user interfaces with component-based architecture.</p>
+        </div>
+        <div className={styles.skill}>
+          <i
+            class={`devicon-tailwindcss-original colored ${styles.tailwindcss}`}
+          ></i>
+          <h3>Tailwind CSS</h3>
+          <p>Utility-first CSS framework for rapid UI development.</p>
         </div>
       </div>
     </section>

@@ -13,9 +13,9 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </main>
       <footer>
-        <Contact />
         <p>
           &copy; {new Date().getFullYear()} Moundjid Machghour. All rights
           reserved.
