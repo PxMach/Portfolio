@@ -37,7 +37,7 @@ export default function About() {
           </a>
         </div>
         <a
-          href="CV – Moundjid Machghour.pdf"
+          href="public/CV – Moundjid Machghour.pdf"
           target="_blank"
           className={styles.btn}
         >
