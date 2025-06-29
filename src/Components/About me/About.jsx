@@ -35,10 +35,9 @@ export default function About() {
           <a href="https://x.com/PixelMach1">
             <i className="fa-brands fa-x"></i>
           </a>
-          {/* <!-- <a href="#"><i className="fa-brands fa-instagram"></i></a> --> */}
         </div>
         <a
-          href="mailto:moundjidmachghour58@gmail.com?subject=Job%20Opportunity&body=Hello%2C%20I%27m%20interested%20in%20discussing%20a%20job%20opportunity%20with%20you."
+          href="CV – Moundjid Machghour.pdf"
           target="_blank"
           className={styles.btn}
         >
