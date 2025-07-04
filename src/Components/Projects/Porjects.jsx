@@ -90,8 +90,24 @@ export default function Projects() {
             to add them to a shopping cart.
           </p>
           <span>
-            Technologies used : HTML, CSS, JavaScript{" "}
-            <code>(React) !not finished yet</code>
+            Technologies used : HTML, CSS, JavaScript
+            <code>(React)</code>
+          </span>
+        </div>
+
+        <div className={styles.projectItem}>
+          <h3>
+            <a href="#" target="_blank">
+              Fylo landing page with dark theme and features grid
+            </a>
+          </h3>
+          <p>
+            A landing page for Fylo with a dark theme and a grid layout
+            showcasing its features.
+          </p>
+          <span>
+            Technologies used : HTML, CSS, JavaScript
+            <code>(React)</code>
           </span>
         </div>
       </div>
