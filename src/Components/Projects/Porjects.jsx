@@ -79,7 +79,7 @@ export default function Projects() {
           </p>
           <span>Technologies used : HTML, CSS, JavaScript</span>
         </div>
-        <div className={styles.projectItem}>
+        {/* <div className={styles.projectItem}>
           <h3>
             <a href="#" target="_blank">
               Product list with cart
@@ -93,11 +93,14 @@ export default function Projects() {
             Technologies used : HTML, CSS, JavaScript
             <code>(React)</code>
           </span>
-        </div>
+        </div> */}
 
         <div className={styles.projectItem}>
           <h3>
-            <a href="#" target="_blank">
+            <a
+              href="https://frontend-mentor-fylo-landing-page-w.vercel.app/"
+              target="_blank"
+            >
               Fylo landing page with dark theme and features grid
             </a>
           </h3>
