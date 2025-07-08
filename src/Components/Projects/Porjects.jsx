@@ -20,6 +20,26 @@ export default function Projects() {
           </p>
           <span>Technologies used : HTML, CSS, JavaScript</span>
         </div>
+
+        <div className={styles.projectItem}>
+          <h3>
+            <a
+              href="https://frontend-mentor-huddle-landing-page-lovat.vercel.app/"
+              target="_blank"
+            >
+              Huddle landing page with single introductory section
+            </a>
+          </h3>
+          <p>
+            A landing page for Huddle with a single introductory section,
+            showcasing the platform's features and benefits.
+          </p>
+          <span>
+            Technologies used : HTML, CSS, JavaScript
+            <code>(React, Tailwind CSS)</code>
+          </span>
+        </div>
+
         <div className={styles.projectItem}>
           <h3>
             <a
@@ -64,6 +84,7 @@ export default function Projects() {
           </p>
           <span>Technologies used : HTML, CSS, JavaScript</span>
         </div>
+
         <div className={styles.projectItem}>
           <h3>
             <a
@@ -79,6 +100,7 @@ export default function Projects() {
           </p>
           <span>Technologies used : HTML, CSS, JavaScript</span>
         </div>
+
         {/* <div className={styles.projectItem}>
           <h3>
             <a href="#" target="_blank">
