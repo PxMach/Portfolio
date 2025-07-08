@@ -43,3 +43,7 @@
   text-decoration: underline;
   color: #00758f;
 }
+code{
+  color: violet;
+  font-weight: 600;
+}
