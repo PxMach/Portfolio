@@ -5,20 +5,27 @@
   box-sizing: border-box;
   font-family: "Red Hat Text", sans-serif;
   text-decoration: none;
+  list-style: none;
 }
 body {
   min-height: 100vh;
-  padding: 2rem 9rem;
   background-image: url("./img/public/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
+  padding: 1rem;
 }
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
+
+@media (min-width: 31.25rem) {
+  body {
+    padding: 2rem 9rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
 }

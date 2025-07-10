@@ -19,14 +19,18 @@ export default function Contact() {
           placeholder="email@example.com"
           required
         />
-        {showError && <span className={styles.error}>Please enter a valid email address</span>}
+        {showError && (
+          <span className={styles.error}>
+            Please enter a valid email address
+          </span>
+        )}
         <textarea name="message" placeholder="Your Message" required></textarea>
         <button onClick={handleSubmit} type="submit">
           Send
         </button>
       </form>
       <p>
-        Or email me directly at
+        Or email me directly at{" "}
         <a href="mailto:moundjidmachghour58@gmail.com">
           moundjidmachghour58@gmail.com
         </a>

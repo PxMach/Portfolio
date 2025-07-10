@@ -44,3 +44,52 @@
 .skill .tailwindcss {
   color: #38b2a5;
 }
+
+@media (min-width: 31.25rem) {
+  /* .sectionSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionSkills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  } */
+  /* .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  } */
+  /* .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    background-color: #ffffff;
+    color: black;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+  } */
+  /* .skill i {
+    font-size: 2.5rem;
+  }
+  .skill .html5 {
+    color: #e34c26;
+  }
+  .skill .js {
+    color: #f0db4f;
+  }
+  .skill .database {
+    color: #00758f;
+  }
+  .skill .react {
+    color: #61dafb;
+  }
+  .skill .tailwindcss {
+    color: #38b2a5;
+  } */
+}
