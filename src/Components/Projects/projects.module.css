@@ -50,52 +50,6 @@ code {
 
 @media (min-width: 31.25rem) {
   .sectionProjects {
-    /* display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center; */
     margin-top: 10rem;
-    /* gap: 2rem; */
   }
-  /* .sectionProjects h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  } */
-  .projectList {
-    /* display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem; */
-  }
-  .projectItem {
-    /* background-color: #ffffff;
-    color: black;
-    padding: 1rem;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem; */
-  }
-  /* .projectItem:hover {
-    transform: translateY(-2px);
-    transition: transform 0.2s ease-in-out;
-  }
-  .projectItem h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .projectItem h3 a {
-    color: #000;
-    text-decoration: none;
-  }
-  .projectItem h3 a:hover {
-    text-decoration: underline;
-    color: #00758f;
-  }
-  code {
-    color: violet;
-    font-weight: 800;
-  } */
 }

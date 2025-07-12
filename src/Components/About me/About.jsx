@@ -26,14 +26,26 @@ export default function About() {
           experiences that are useful, fluid and... a little bit surprising!
         </p>
         <div className={styles.socialIcons}>
-          <a href="https://discord.gg/22HbQAqj" target="_blank">
-            <i className="fa-brands fa-discord"></i>
+          <a
+            href="https://discord.gg/22HbQAqj"
+            target="_blank"
+            aria-label="Serveur Discord PixelMach"
+          >
+            <i className="fa-brands fa-discord" aria-hidden="true"></i>
           </a>
-          <a href="https://github.com/PxMach" target="_blank">
-            <i className="fa-brands fa-github"></i>
+          <a
+            href="https://github.com/PxMach"
+            target="_blank"
+            aria-label="Compte Github PxMach"
+          >
+            <i className="fa-brands fa-github" aria-hidden="true"></i>
           </a>
-          <a href="https://x.com/PixelMach1">
-            <i className="fa-brands fa-x"></i>
+          <a
+            href="https://x.com/PixelMach1"
+            target="_blank"
+            aria-label="Compte X PxMach"
+          >
+            <i className="fa-brands fa-x" aria-hidden="true"></i>
           </a>
         </div>
         <a
