@@ -3,9 +3,15 @@ import styles from "./contact.module.css";
 
 export default function Contact() {
   const [showError, setShowError] = useState(false);
-
+  const [email, setEmail] = useState("");
+  // setShowError(true);
   function handleSubmit() {
-    setShowError(true);
+    const eamilRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (eamilRegex.test(email)) {
+      setShowError(false);
+    } else {
+      setShowError(true);
+    }
   }
 
   return (
@@ -17,6 +23,9 @@ export default function Contact() {
           type="email"
           name="email"
           placeholder="email@example.com"
+          aria-label="Your email address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
           required
         />
         {showError && (
